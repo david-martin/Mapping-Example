@@ -23,4 +23,4 @@ var getPlacemarks = function (params, callback) {
   return callback(null, {points: points});
 }
 
-exports.getPlacemarks = getPlacemarks;
+exports.getPlacemark s = getPlacemarks;
