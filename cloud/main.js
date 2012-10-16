@@ -10,7 +10,7 @@ exports.getPlacemarks = function(params, callback) {
   points.push({lat: lat + 0.003, lon: lon, title: 'Top Middle'});
   points.push({lat: lat + 0.002, lon: lon + 0.003, title: 'Top Right'});
   
-  points.push({lat: lat, lon: lon - 0.003, title: 'Middle Left'});  
+  points.push({lat: lat, lon: lon - 0.001, title: 'Middle Left'});  
   points.push({lat: lat, lon: lon + 0.002, title: 'Middle Right'});
   
   
